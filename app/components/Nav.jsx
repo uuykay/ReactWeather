@@ -11,8 +11,6 @@ var {Link, IndexLink} = require('react-router');
 // 				<IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
 // 				<IndexLink to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</IndexLink>
 // 				<IndexLink to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</IndexLink>
-				
-// 				<a href="#/about">About</a>
 // 			</div>
 // 		);
 // 	}
@@ -25,8 +23,6 @@ var Nav = (props) => {
 			<IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
 			<IndexLink to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</IndexLink>
 			<IndexLink to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</IndexLink>
-			
-			<a href="#/about">About</a>
 		</div>
 	);
 }
